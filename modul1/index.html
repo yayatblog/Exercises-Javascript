@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Form Registration</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700"
+        rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/generic.css">
+    <link rel="stylesheet" href="css/js-image-slider.css">
+    <script src="js/js-image-slider.js"></script>
+    <style>
+        #iconeye {
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="logo" class="container">
+        <h1><a href="#">FORM LOGIN</a></h1>
+    </div>
+
+    <div id="page" class="container">
+        <div id="box1" style="width: 380px;height: 380px;">
+            <div id="sliderFrame">
+                <div id="slider">
+                    <img src="images/computer.jpg" alt="">
+                    <img src="images/cartun.png" alt="">
+                    <img src="images/people.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div id="box2">
+            <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+
+            <form id="form-contact" action="" method="post">
+                <h1>LOGIN</h1>
+                <p>Belum memiliki akun?<a href="#">Daftar</a></p>
+                <tr>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Email" autocomplete="email">
+
+                        <i class="fa fa-inbox"></i>
+                    </div>
+                </tr>
+                <tr>
+                    <div>
+                        <input type="password" id="psw" name="psw" placeholder="password" pattern="" title="" required
+                            style="width: 390px;border:none;border-bottom: 1px solid #999;
+                        margin-bottom: 10px;color: #999;padding: 10px 0px;background:none;">
+                        <span id="iconeye" onclick="show()">
+                            <i class="fa fa-pencil"></i>
+                            <!-- <i class="fab fa-phabricator"></i> -->
+                        </span>
+                    </div>
+                </tr>
+                <br>
+                <input type="checkbox" name="remember" id="remember" placeholder="" value="">Ingat saya
+                <br>
+                <button type="submit" name="login" class="login" onclick="msg()">Login</button><br>
+                <a href="#">Lupa Password</a>
+            </form>
+        </div>
+
+        <div id="message">
+            <h3>Password harus terdiri dari: </h3>
+            <p id="length" class="invalid">Minimal <b>4 karakter</b></p>
+        </div>
+
+
+    </div>
+
+    <div id="footer" class="container">
+        <p>Copyright (c) 2020 Maulana Hidayat </p>
+    </div>
+    <script src="js/form.js"></script>
+
+</body>
+
+</html>

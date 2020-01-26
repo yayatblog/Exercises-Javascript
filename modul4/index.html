@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD With Javascript </title>
+</head>
+
+<body>
+    <div class="kotak">
+        <!-- <div class="row"> -->
+        <div class="col-md-12">
+            <h1>FORM TAMBAH DATA PRODUK</h1>
+
+            <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                <div class="form-group">
+                    <label for="exampleInputEmail">Nama Produk</label>
+                    <input type="text" name="fullName" id="fullName" class="form-control"
+                        placeholder="Masukkan nama paket">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail">Kategori Produk</label>
+                    <input type="text" name="empCode" id="empCode" class="form-control"
+                        placeholder="Masukkan nama Kategori">
+                </div>
+                <div class=" form-group">
+                    <label for="exampleInputEmail">Harga Produk</label>
+                    <input type="number" name="salary" id="salary" class="form-control"
+                        placeholder="Masukkan harga paket">
+                </div>
+                <input type="submit" class="btn btn-primary btn-lg btn-block" value="Submit">
+            </form>
+        </div>
+    </div>
+    <style>
+        .top {
+            margin-top: -35px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+    <div class="container">
+        <table class="table top" border="1px" id="employeeList">
+            <thead>
+                <tr>
+                    <th scope="col">Nama Produk</th>
+                    <th scope="col">Kategori Produk</th>
+                    <th scope="col">Harga Produk</th>
+                    <th scope="col">Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

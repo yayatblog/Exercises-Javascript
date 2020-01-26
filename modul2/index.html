@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project OOP Javascript</title>
+</head>
+
+<body>
+    <div class="kotak">
+        <!-- <div class="row"> -->
+        <div class="col-md-12">
+            <h1>FORM TAMBAH DATA PRODUK</h1>
+
+            <form action="" id="paket-kursus">
+                <div class="form-group">
+                    <label for="exampleInputEmail">Nama Produk</label>
+                    <input type="text" name="" id="paket" class="form-control" placeholder="Masukkan nama paket">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail">Kategori Produk</label>
+                    <input type="text" name="" id="jenis" class="form-control" placeholder="Masukkan jenis paket">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail">Harga Produk</label>
+                    <input type="number" name="" id="harga" class="form-control" placeholder="Masukkan harga paket">
+                </div>
+                <input type="submit" class="btn btn-primary btn-lg btn-block" value="Simpan Data">
+            </form>
+        </div>
+    </div>
+    <style>
+        .top {
+            margin-top: -35px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+    <div class="container">
+        <table class="table top" border="1px">
+            <thead>
+                <tr class="">
+                    <th scope="col">Nama Produk</th>
+                    <th scope="col">Kategori Produk</th>
+                    <th scope="col">Harga Produk</th>
+                    <th scope="col">Aksi</th>
+                </tr>
+            <tbody id="data-paket">
+
+            </tbody>
+            </thead>
+        </table>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.slim.js"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+    <script src="js/app.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+body {
+    background-image: url('img/gambar.jpg');
+    background-size: cover;
+}
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: initial;
+	text-align: center;
+}
+.kotak{
+	background:rgb(0,0,0,0.39);
+	box-shadow: 0px 0px 20px 8px;
+	width: 600px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+	border-radius: 10px;
+}
+/* body > table {
+    width: 80%;
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+    margin-left: 3px;
+}
+td,th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+tr:nth-child(even),table.list thead>tr{
+    background-color: #dddddd;
+}
+input[type=text],input[type=number]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form div.form-action-buttons{
+    text-align: left;
+}
+form div.form-action-buttons input{
+    width: 80px;
+    height: 35px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: 15px;
+    background-color: rgb(165, 162, 168);
+    color: black;
+    border-radius: 5px; 
+    cursor: pointer;
+    text-transform: uppercase;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+label.validation-error{
+    color: red;
+    margin-left: 5px;
+}
+.hide {
+    display: none;
+} */
